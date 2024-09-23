@@ -1,0 +1,27 @@
+imbalanced_data_columns:
+  - id: category
+  - label: category
+  - tweet: text
+
+raw_data_columns:
+  - count: int
+  - hate_speech: int
+  - offensive_language: int
+  - neither: int
+  - class: category
+  - tweet: text
+
+numerical_columns_imbalanced:
+  - id
+
+categorical_columns_imbalanced:
+  - label
+
+numerical_columns_raw:
+  - count
+  - hate_speech
+  - offensive_language
+  - neither
+
+categorical_columns_raw:
+  - class
